@@ -19,6 +19,7 @@ export default function RootLayout({
       <body>
         <div className="main flex flex-col min-h-screen">
           <Navbar />
+          {/* pages of next js app are children here */}
           <main className="flex-grow">{children}</main>
           <Footer />
         </div>

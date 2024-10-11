@@ -1,3 +1,13 @@
+import HomeBanner from "./components/HomeBanner";
+
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <div>
+        <div>
+          <HomeBanner />
+        </div>
+      </div>
+    </>
+  );
 }
